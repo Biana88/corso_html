@@ -1,0 +1,54 @@
+* {
+    font-family: 'Lobster', Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+header,
+footer {
+    border: 1px coral solid;
+    text-align: center;
+    height: 100mp;
+    color: blue;
+    font-size: 2em;
+}
+
+#content {
+    border: 2px dotted darkred;
+    color: chartreuse;
+}
+
+#sideMenu {
+    width: 30%;
+    position: absolute;
+}
+
+#main {
+    width: 70%;
+}
+
+.withBorder {
+    border: 1px solid green;
+}
+
+.titolo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+h1.titolo {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#spesa>.item>img {
+    width: 300px;
+    height: auto;
+}
